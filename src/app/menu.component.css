@@ -1,0 +1,50 @@
+nav {
+    height: calc(100% - 48px);
+    width: 48px;
+    background: #3F51B5;        
+    transition: width 0.175s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    overflow: hidden;
+    z-index: 100;
+    position: relative;
+    padding-top: 1px;
+}
+
+nav.open,
+nav:hover {
+     width: 200px;    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    height: 40px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+nav > ul > li:hover,
+nav > ul > li.active {
+    background: #5c6bc0;
+}
+
+nav > ul > li > button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50% 20% 50%;
+    float: left;
+}
+
+nav > ul > li > div {
+    margin-top: 10px;
+    margin-left: 48px;
+    color: white;    
+}
+
+nav > ul > li.active > div {
+    font-weight: bold; 
+}

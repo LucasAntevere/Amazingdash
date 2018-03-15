@@ -1,0 +1,19 @@
+.page {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    right: 0px;
+    overflow: auto;
+    bottom: 0px;
+    transition: left 0.175s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.page.nav-opened {
+    left: 200px !important;
+}
+
+.overflow {        
+    height: 100%;
+    white-space: nowrap;
+}

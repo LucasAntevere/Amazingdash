@@ -1,0 +1,33 @@
+header {
+    height: 48px;
+    background: #3F51B5;
+    color: #E8EAF6;    
+    width: 100%;
+}
+
+header h1 {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.header-buttons {
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+.header-buttons button{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #ffffff;
+    box-shadow: none;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}

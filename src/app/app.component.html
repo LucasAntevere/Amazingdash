@@ -1,0 +1,8 @@
+<header-a (onMenuToggleChange)="onMenuToggleChange($event)"></header-a>
+<menu-a (onNavOpen)="onNavToggle($event)" [menuAlwaysOpened]="_menuMustBeAlwaysOpened"></menu-a>
+
+<div class="page" #page [ngClass]="{ 'nav-opened': _menuMustBeAlwaysOpened || navOpened }">
+    <div class="overflow">
+        <window></window>    
+    </div>
+</div>

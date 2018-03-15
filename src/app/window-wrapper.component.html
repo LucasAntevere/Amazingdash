@@ -1,0 +1,16 @@
+<div class="window-wrapper">
+    <div class="window-bar">
+        <div class="window-bar-buttons">
+            <button class="circle red" (click)="onClose()"><i class="material-icons md-18">close</i></button>
+        </div>
+        <div class="window-title">
+            {{title}}
+        </div>       
+        <div class="window-subtitle">
+            {{subtitle}}
+        </div>
+    </div>
+    <div class="window-content">
+        <ng-content></ng-content>
+    </div>
+</div>

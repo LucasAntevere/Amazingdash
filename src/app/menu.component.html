@@ -1,0 +1,15 @@
+<nav [ngClass]="{
+    'open' :  menuAlwaysOpened    
+}" (mouseover)='onMouseOver()' (mouseleave)="onMouseLeave()">
+    <ul>
+        <li class="active"><button><i class="material-icons">event</i></button> <div>Calendar</div></li>
+        <li><button><i class="material-icons">perm_phone_msg</i></button> <div>Messages</div></li>
+        <li><button><i class="material-icons">shopping_cart</i></button> <div>Expenses</div></li>
+        <li><button><i class="material-icons">supervisor_account</i></button> <div>People</div></li>
+
+        <li><button><i class="material-icons">store</i></button> <div>Stores</div></li>
+        <li><button><i class="material-icons">linked_camera</i></button> <div>Photos</div></li>
+        <li><button><i class="material-icons">business</i></button> <div>Business</div></li>
+        <li><button><i class="material-icons">devices</i></button> <div>Devices</div></li>
+    </ul>
+</nav>
